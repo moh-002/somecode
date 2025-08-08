@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Book</title>
+    <link rel="stylesheet" href="styles/book.css">
+</head>
+<body>
+    <div id="balloons-bg"></div>
+    <div id="hearts-bg"></div>
+    <div id="confetti"></div> 
+    <main>
+        <div class="book-container">  
+            <div id="book-page"></div>
+            <div class="book-nav">
+                <button id="prev-page">Previous</button>
+                <button onclick="window.location.href='main.html'">Back</button>
+                <button id="next-page">Next</button>
+            </div>
+          
+        </div>
+
+        <div class="audio-controller">
+            <audio id="bg-music" src="./assets/music/m1.mp3" controls preload="auto" loop autoplay></audio>
+        </div>   
+
+    </main>
+
+    <footer>
+    <script src="scripts/book.js"></script>
+</body>
+</html>
